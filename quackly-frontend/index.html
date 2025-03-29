@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quackly</title>
+</head>
+<body>
+  <h1>Quackly</h1>
+
+  <h2>Register</h2>
+  <input id="name" placeholder="Name" />
+  <input id="email" placeholder="Email" />
+  <button onclick="register()">Register</button>
+
+  <h2>Create Post</h2>
+  <input id="post" placeholder="What’s on your mind?" />
+  <button onclick="createPost()">Post</button>
+
+  <h2>Feed</h2>
+  <button onclick="loadPosts()">Refresh</button>
+  <ul id="feed"></ul>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>

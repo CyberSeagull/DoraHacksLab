@@ -1,0 +1,11 @@
+{
+  "name": "quackly-icp",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "dfx start --background",
+    "deploy": "dfx deploy"
+  },
+  "devDependencies": {
+    "azle": "^0.16.0"
+  }
+}
