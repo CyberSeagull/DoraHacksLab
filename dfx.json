@@ -3,13 +3,14 @@
       "quackly_backend": {
         "main": "src/index.ts",
         "type": "custom"
+        "build": ""
       },
       "quackly_frontend": {
       "source": ["quackly-frontend"],
       "type": "assets"
     }
     },
-    "dfx": "0.15.1",
+    "dfx": "0.25.1",
     "networks": {
       "local": {
         "bind": "127.0.0.1:8000",
